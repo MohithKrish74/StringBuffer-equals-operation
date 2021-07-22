@@ -1,0 +1,37 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the string1 : ");
+        String string =in.nextLine();
+        System.out.print("Enter the string2 : ");
+        StringBuffer stringbuffer1=new StringBuffer(in.nextLine());
+        System.out.println((string.equals(stringbuffer1.toString()))?"Equal":"Not Equal");
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
